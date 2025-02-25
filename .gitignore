@@ -1,52 +1,48 @@
-# Prerequisites
-*.d
+# main
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# 🔹 .NET
+bin/
+obj/
+*.user
+*.vs
+*.suo
+*.vscode/
+*.swp
+project.lock.json
+project.assets.json
+appsettings.*.json
+secrets.json
+logs/
 *.pdb
+*.db
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# 🔹 Visual Studio
+.vs/
+*.csproj.user
+
+# 🔹 React
+node_modules/
+.yarn/
+.yarn-cache/
+.npm/
+.vite/
+.next/  # for Next.js
+out/    # Next.js output
+coverage/  # tests
+.env*
+*.log
+
+# 🔹 Docker
+docker-compose.override.yml
+*.dockerfile
+docker-compose*.yml
+
+# 🔹 CI/CD
+.github/
+.gitlab/
+.idea/
